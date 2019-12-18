@@ -1,0 +1,103 @@
+body {
+  font-family: 'Lato', sans-serif; }
+
+.ofheader {
+  background-image: url("../img/parallax1.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; }
+  .ofheader header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; }
+    .ofheader header .moblogo {
+      display: none; }
+    .ofheader header h1 {
+      background-color: black;
+      color: white; }
+
+.about .titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.vote .row .portfolio {
+  background-image: url("../img/parallax2.jpg");
+  height: 400px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.contact .container-fluid .slide {
+  background-image: url("../img/parallax3.jpg");
+  height: 400px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; }
+  .contact .container-fluid .slide .col-12 {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+.reallygood .voterow .col-10 {
+  background-color: grey;
+  height: 1.5em; }
+.reallygood .voterow .col-2 {
+  background-color: red;
+  height: 1.5em; }
+.reallygood .voterow2 .col-9 {
+  background-color: grey;
+  height: 1.5em; }
+.reallygood .voterow2 .col-3 {
+  background-color: red;
+  height: 1.5em; }
+.reallygood .voterow3 .col-7 {
+  background-color: grey;
+  height: 1.5em; }
+.reallygood .voterow3 .col-5 {
+  background-color: red;
+  height: 1.5em; }
+
+form button {
+  float: right; }
+
+footer {
+  background-color: grey; }
+  footer .color a {
+    color: black !important; }
+
+.vote .first {
+  background-color: grey; }
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+  .para p {
+    margin-left: 1em; } }
+@media only screen and (max-width: 767px) {
+  .para {
+    display: none; }
+
+  .reallygood .row {
+    padding: 0 1em 0 1em; }
+
+  .notinmob {
+    padding: 0; }
+    .notinmob .votes .col-12 {
+      margin-top: 1em; }
+
+  .ofheader {
+    padding: 0; }
+    .ofheader header .moblogo {
+      display: block; }
+
+  nav .navbar-toggler {
+    margin-left: auto; }
+
+  .mainlogo {
+    display: none; } }
+
+/*# sourceMappingURL=style.css.map */
